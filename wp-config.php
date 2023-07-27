@@ -24,10 +24,10 @@ define( 'FS_METHOD', 'direct' );
 define( 'DB_NAME', 'u937340376_recipies' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'u937340376_raja' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'Secure@406' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
