@@ -39,7 +39,7 @@ if( ! function_exists( 'newsmatic_top_header_social_part' ) ) :
                     if ( is_front_page() && is_home() ) :
                 ?>
                         <h1 class="site-title">
-                        <div style="display:flex; justify-content:space-around; align-items: center; width: 28rem;">
+                        <div class="brand-title>
                             <?= the_custom_logo(); ?>
                             <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
                         </div>
@@ -48,7 +48,7 @@ if( ! function_exists( 'newsmatic_top_header_social_part' ) ) :
                     else :
                 ?>
                         <h1 class="site-title">
-                        <div style="display:flex; justify-content:space-around; align-items: center; width: 28rem;">
+                        <div class="brand-title">
                             <?= the_custom_logo(); ?>
                             <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
                         </div>                        </h1>
