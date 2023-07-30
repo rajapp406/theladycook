@@ -59,14 +59,14 @@ class Newsmatic_Posts_Grid_Widget extends WP_Widget {
                                         <?php endif; ?>
                                     </figure>
                                     <?php
-                                        echo '<div class="bmm-post-cats-wrap bmm-post-meta-item post-categories">';
+                                     /*   echo '<div class="bmm-post-cats-wrap bmm-post-meta-item post-categories">';
                                             $count = 0;
                                             foreach( $categories as $cat ) {
                                                 echo '<h5 class="card__content-category cat-item cat-' .esc_attr( $cat->cat_ID ). '"><a href="' .esc_url( get_term_link( $cat->cat_ID ) ). '">' .esc_html( $cat->name ). '</a></h5>';
                                                 if( $count > 0 ) break;
                                                 $count++;
                                             }
-                                        echo '</div>';
+                                        echo '</div>';*/
                                     ?>
                                 </div>
                                 <div class="post-content-wrap card__content">

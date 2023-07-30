@@ -69,14 +69,14 @@ class Newsmatic_Posts_List_Widget extends WP_Widget {
                                 </div>
                                 <div class="post-content-wrap card__content">
                                     <?php
-                                        echo '<div class="bmm-post-cats-wrap bmm-post-meta-item post-categories">';
+                                    /*    echo '<div class="bmm-post-cats-wrap bmm-post-meta-item post-categories">';
                                             $count = 0;
                                             foreach( $categories as $cat ) {
                                                 echo '<h5 class="card__content-category cat-item cat-' .esc_attr( $cat->cat_ID ). '"><a href="' .esc_url( get_term_link( $cat->cat_ID ) ). '">' .esc_html( $cat->name ). '</a></h5>';
                                                 if( $count > 0 ) break;
                                                 $count++;
                                             }
-                                        echo '</div>';
+                                        echo '</div>';*/
                                     ?>
                                     <div class="newsmatic-post-title card__content-title post-title">
                                         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>

@@ -179,10 +179,10 @@ if( ! function_exists( 'newsmatic_get_post_categories' ) ) :
     function newsmatic_get_post_categories( $post_id, $number ) {
     	$n_categories = wp_get_post_categories($post_id, array( 'number' => absint( $number ) ));
 		echo '<ul class="post-categories">';
-			foreach( $n_categories as $n_category ) :
+	/*		foreach( $n_categories as $n_category ) :
 				echo '<li class="cat-item ' .esc_attr( 'cat-' . $n_category ). '"><a href="' .esc_url( get_category_link( $n_category ) ). '" rel="category tag">' .esc_html( get_cat_name( $n_category ) ). '</a></li>';
 			endforeach;
-		echo '</ul>';
+		echo '</ul>';*/
     }
 endif;
 
