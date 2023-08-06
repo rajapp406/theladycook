@@ -5411,18 +5411,19 @@
 	.newsmatic-title-two .widget_block ul li a,
 	.newsmatic-title-two .widget_nav_menu ul li a  {
 		display: inline;
-	    -webkit-transition: 0.5s ease;
-	    transition: 1s ease;
+	    -webkit-transition: none;
+	    transition: none;
 	}
 
 	.newsmatic-title-two .post-title a:hover,
 	.newsmatic-title-two .news-carousel .post-title a:hover,
 	.newsmatic-title-two .widget_block ul li a:hover,
 	.newsmatic-title-two .widget_nav_menu ul li a:hover {
-		color: var(--theme-color-red);
+		color: var(--post-title-color);
 		text-decoration: none;
 		background-image: none;
 		background-size: 0;
+		border-bottom: 1px solid var(--menu-color-hover);
 	}
 
 	/* Title effect three */
