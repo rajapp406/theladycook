@@ -113,7 +113,7 @@
                 'smartphone'    => 200
             ),
             'site_title_typo'    => array(
-                'font_family'   => array( 'value' => 'Roboto', 'label' => 'Roboto' ),
+                'font_family'   => array( 'value' => 'Dancing Script', 'label' => 'Dancing Script' ),
                 'font_weight'   => array( 'value' => '700', 'label' => 'Bold 700' ),
                 'font_size'   => array(
                     'desktop' => 45,

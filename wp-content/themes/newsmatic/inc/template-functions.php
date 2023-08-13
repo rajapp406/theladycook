@@ -402,8 +402,8 @@ if( !function_exists( 'newsmatic_typo_fonts_url' ) ) :
 			);
 		};
 		$site_title_typo_value = $action($filter,'site_title_typo');
-		$typo1 = "Roboto:300,400,500,700,900";
-		$typo2 = "Dancing Script:300,400,500,600";
+		$typo1 = "Dancing Script:300,400,500,700,900";
+		$typo2 = "Roboto:300,400,500,600";
 		$typo3 = "Jost:300,400,500,600,700";
 
 		$get_fonts = apply_filters( 'newsmatic_get_fonts_toparse', [$site_title_typo_value, $typo1, $typo2, $typo3] );
