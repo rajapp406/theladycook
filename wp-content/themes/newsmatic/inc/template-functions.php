@@ -403,7 +403,7 @@ if( !function_exists( 'newsmatic_typo_fonts_url' ) ) :
 		};
 		$site_title_typo_value = $action($filter,'site_title_typo');
 		$typo1 = "Roboto:300,400,500,700,900";
-		$typo2 = "Inter:300,400,500,600";
+		$typo2 = "Dancing Script:300,400,500,600";
 		$typo3 = "Jost:300,400,500,600,700";
 
 		$get_fonts = apply_filters( 'newsmatic_get_fonts_toparse', [$site_title_typo_value, $typo1, $typo2, $typo3] );
@@ -457,7 +457,7 @@ if( ! function_exists( 'newsmatic_get_rcolor_code' ) ) :
 	 * @since 1.0.0
 	 */
 	function newsmatic_get_rcolor_code() {
-		$color_array = ["#1B8415"];
+		$color_array = ["##FFF"];
 		$color_key = array_rand( $color_array, 1 );
 		return apply_filters( 'newsmatic_apply_random_color_shuffle_value', $color_array[$color_key] );
 	}
